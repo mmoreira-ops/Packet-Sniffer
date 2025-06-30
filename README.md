@@ -44,7 +44,8 @@ packet-sniffer/
 
 ## 🛠️ Como Usar
 
-```1. Clone o repositório
+```
+1. Clone o repositório
 bash
 git clone https://github.com/seu-usuario/packet-sniffer.git
 cd packet-sniffer
