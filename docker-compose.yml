@@ -1,0 +1,10 @@
+services:
+  sniffer:
+    build: .
+    network_mode: host
+    cap_add:
+      - NET_RAW
+    volumes:
+      - ./:/app
+    stdin_open: true
+    tty: true
